@@ -1,0 +1,26 @@
+.formBlock{
+    min-height: 50vh;
+    background-color: #7e7375;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    min-width: 250px;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+}
+
+.form input{
+    width: 90%;
+}
+
+.form textarea{
+    width: 90%;
+}

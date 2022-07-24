@@ -1,17 +1,17 @@
-.skillsBlock {
-    min-height: 100vh;
-    background-color: #d4ffc0;
+.footerBlock {
+    min-height: 150px;
+    background-color: #557cc4;
 }
 
-.skillsContainer {
+.footerContainer {
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
 }
 
-.skills {
+.icons {
     border: 1px solid;
-    width: 100%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;

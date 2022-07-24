@@ -25,7 +25,7 @@ export const Skills = () => {
             <div className={`${containerStyle.container} ${styles.skillsContainer}`}>
                 <h2>Skills</h2>
                 <div className={styles.skills}>
-                    {skills.map(el => <Skill id={el.id} title={el.title} description={el.description} icon={el.icon}/>)}
+                    {skills.map(el => <Skill key={el.id} id={el.id} title={el.title} description={el.description} icon={el.icon}/>)}
                 </div>
             </div>
         </div>

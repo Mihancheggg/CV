@@ -1,0 +1,10 @@
+.cooperationBlock{
+    width: 100%;
+    background-color: aquamarine;
+    height: 100px;
+}
+
+.cooperationContainer{
+    flex-direction: column;
+    justify-content: normal;
+}
