@@ -8,3 +8,12 @@
     flex-direction: column;
     justify-content: normal;
 }
+
+@media screen and (max-width: 408px){
+    .cooperationBlock{
+        height: 120px;
+    }
+    .cooperationContainer{
+        justify-content: center;
+    }
+}

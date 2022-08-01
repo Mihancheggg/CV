@@ -1,5 +1,7 @@
 .icon {
     height: 60px;
     width: 60px;
+    box-sizing: border-box;
+    margin: 10px;
     background-color: #eeeef5;
 }

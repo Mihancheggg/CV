@@ -8,7 +8,7 @@ export const Project = (props: ProjectType) => {
             <div className={styles.image}></div>
             <div className={styles.textBlock}>
                 <h3>{props.title}</h3>
-                <span>{props.description}</span>
+                <span className={styles.description}>{props.description}</span>
             </div>
             <button>View project</button>
         </div>

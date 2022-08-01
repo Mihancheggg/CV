@@ -10,7 +10,7 @@ export const Form = () => {
                 <form action="submit" className={styles.form}>
                     <input type="text" placeholder={'Your name'}/>
                     <input type="text" placeholder={'Your phone'}/>
-                    <textarea name="additional" id="" cols={30} rows={10} placeholder={'Additional information'}>
+                    <textarea name="additional" id="" placeholder={'Additional information'}>
                     </textarea>
                 </form>
                 <button>Submit</button>

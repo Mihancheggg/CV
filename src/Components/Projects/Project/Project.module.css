@@ -1,5 +1,6 @@
 .project{
     width: 250px;
+    box-sizing: border-box;
     background-color: #f7f7f7;
     display: flex;
     flex-direction: column;
@@ -12,4 +13,8 @@
 .image{
     width: 100%;
 
+}
+
+.textBlock{
+    padding: 10px;
 }
